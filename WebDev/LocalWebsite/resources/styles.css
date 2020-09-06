@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+} 
+body {    
+    background-image: url("background1.jpg");
+}
+
+header {
+    background-color: #c299ff;
+    opacity: .75;
+    margin: 10px;
+    height:150px;
+    width: 100%;
+}
+
+header h1 {
+    font-family: Consolas;
+    padding-top: 25px;
+    text-align: center;
+    color: black;
+}
+
+header button {
+    background-color: transparent;
+}
+
+footer p {
+    font-family: 'Courier New', Courier, Consolas;
+    font-size: 15px;
+    color: rgb(70, 12, 94);
+    background-color: #ffff;
+    padding-left: 10px;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+
+}
+
+#EdBtn {
+    padding-right: 50px;
+}
